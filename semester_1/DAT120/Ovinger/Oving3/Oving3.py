@@ -134,8 +134,6 @@ def main_g():
     spenningsfall = beregn_spenningsfall(resistans, strom)
     print(f"Resistansen er: {resistans:.2f} ohm og spenningsfallet er {spenningsfall:.2f}")
 
-
-
 #Oppgave h og i
 def be_om_strom():
     while True:
@@ -261,10 +259,7 @@ def main_l():
     )
     screen.exitonclick()
     
-    
 
-
-#Velg oppgave
 def velg_oppgave():
     while True:
         oppgave_valg = input("Velg oppgave (a, b, c, d) eller 'q' for å avslutte:").strip().lower()
