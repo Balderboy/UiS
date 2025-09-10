@@ -1,9 +1,6 @@
 ﻿
 
-from asyncio import base_events
-from pickle import TRUE
 import sys
-from tkinter import N
 import turtle
 
 #Oppgave a
@@ -244,7 +241,6 @@ def main_l():
 
     screen = turtle.Screen()
     t = turtle.Turtle()
-    t.hideturtle()
     t.speed(0) 
 
     galakse(
